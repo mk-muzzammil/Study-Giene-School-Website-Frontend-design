@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+
+
+#main-body {
+    font-family: 'Milonga', cursive;
+    height: 90vh;
+    background-image: url("../images/WhatsApp\ Image\ 2023-09-18\ at\ 9.41.22\ AM.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#bottom-nav {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+#school-text {
+    opacity: 0.5;
+}
+
+
+#written-green-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#written-green-board>img {
+    z-index: 1;
+    margin-top: 1rem;
+    width: 600px;
+}
+
+
+
+@media screen and (max-width:595px) {
+
+
+
+    #written-green-board img {
+
+        width: 400px;
+    }
+
+
+}
+
+
+@media screen and (max-width:430px) {
+
+    #written-green-board img {
+
+        width: 300px;
+    }
+
+
+}
