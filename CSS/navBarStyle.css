@@ -7,12 +7,20 @@
   background-color:rgba(41,58,74,1);
   border-bottom-left-radius:5rem;
 }
+<<<<<<< HEAD
 .CenteAnchorTagsrContainer{
+=======
+.CenterAnchorTagsContainer{
+>>>>>>> dev-branch
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+<<<<<<< HEAD
 .CenteAnchorTagsrContainer a{
+=======
+.CenterAnchorTagsContainer a{
+>>>>>>> dev-branch
   margin-inline:1rem;
   text-decoration: none;
   font-family: 'Milonga', cursive;
@@ -21,6 +29,35 @@
   font-size: 1rem;
 
 }
+<<<<<<< HEAD
 .CenteAnchorTagsrContainer a:nth-child(2){
   color: #F3922A;
 }
+=======
+
+
+
+.CenterAnchorTagsContainer a:nth-child(2){
+  color: #F3922A;
+}
+
+.barIconContainer{
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .logOutbutton{
+    display: none;
+
+  }
+
+  .CenterAnchorTagsContainer{
+    display: none;
+  }
+
+
+  .barIconContainer{
+    display: block;
+  }
+}
+>>>>>>> dev-branch
