@@ -1,0 +1,13 @@
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.categoryClouds{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+
+  column-gap: 3rem;
+
+}
