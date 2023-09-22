@@ -52,11 +52,7 @@
 
 
 @media screen and (max-width:430px) {
-
     #written-green-board img {
-
-        width: 300px;
+     width: 300px;
     }
-
-
 }
