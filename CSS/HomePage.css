@@ -34,6 +34,15 @@
   font-size: 1rem;
 
 }
+.anchorTagsContainer a:hover{
+  cursor: pointer;
+  color: #F3922A;
+  text-decoration: underline;
+}
+.anchorTagsContainer a:active{
+  color: #F3922A;
+  text-decoration: underline;
+}
 .primary-button{
   margin-inline: 0.3rem;
   height: 35px;
@@ -51,11 +60,20 @@
   border: 1px solid white;
   background: transparent;
 }
+.buttonContainer button:first-child:hover{
+  cursor: pointer;
+  outline: none;
+}
 .buttonContainer button:last-child{
   background-color: rgba(243, 146, 42, 1);
   outline: none;
   border:none;
 }
+.buttonContainer button:last-child:hover{
+  background: transparent;
+  border: 1px solid white;
+}
+
 .sideAdaptSticker{
   padding: 0.5rem 1rem;
   margin-block: 0.5rem;
@@ -173,6 +191,11 @@
   padding: 0.5rem 2.5rem;
   width: 11.5rem;
   border-radius: 7px;
+}
+#knowYouMoreBtn:hover,#JoinNowBtn:hover{
+  cursor: pointer;
+  border: 2px solid rgba(40, 41, 41, 1);
+
 }
 #JoinNowBtn{
   width: 11.5rem;
@@ -533,6 +556,10 @@
   border: none;
   margin-bottom: 1.5rem;
 }
+.plancardButton:hover{
+  cursor: pointer;
+  border: 2px solid black;
+}
 
 .contentPlanCard{
   display: flex;
@@ -624,6 +651,10 @@
     padding: 0.5rem 2.5rem;
     border-radius: 7px;
 }
+.JoinNowButton:hover{
+  cursor: pointer;
+  border: 2px solid black;
+}
 
  .questionsContainer{
   display: flex;
@@ -697,6 +728,11 @@
   font-size: 14px;
   color:rgba(83, 83, 83, 1);
   text-decoration:none;
+}
+.anchorTags a:hover{
+  color: #f28816;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 
@@ -783,6 +819,14 @@
 
 .barIconContainer{
   display: none;
+}
+.barIconContainer img{
+  width: 1.5rem;
+}
+.barIconContainer img:hover{
+  cursor: pointer;
+
+
 }
 @media screen and (max-width:1010px) {
   .navContainer{
