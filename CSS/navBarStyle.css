@@ -1,0 +1,42 @@
+.navContainer{
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgba(41,58,74,1);
+  border-bottom-left-radius:5rem;
+}
+.CenterAnchorTagsContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.CenterAnchorTagsContainer a{
+  margin-inline:1rem;
+  text-decoration: none;
+  font-family: 'Milonga', cursive;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+
+}
+.CenterAnchorTagsContainer a:nth-child(2){
+  color: #F3922A;
+}
+.barIconContainer{
+  display: none;
+}
+@media screen and (max-width:650px) {
+  .logOutbutton{
+    display: none;
+  }
+  .CenterAnchorTagsContainer{
+    display: none;
+  }
+  .barIconContainer{
+    display: block;
+  }
+
+
+}
