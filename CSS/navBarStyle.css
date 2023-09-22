@@ -7,12 +7,12 @@
   background-color:rgba(41,58,74,1);
   border-bottom-left-radius:5rem;
 }
-.CenteAnchorTagsrContainer{
+.CenterAnchorTagsContainer{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.CenteAnchorTagsrContainer a{
+.CenterAnchorTagsContainer a{
   margin-inline:1rem;
   text-decoration: none;
   font-family: 'Milonga', cursive;
@@ -21,6 +21,22 @@
   font-size: 1rem;
 
 }
-.CenteAnchorTagsrContainer a:nth-child(2){
+.CenterAnchorTagsContainer a:nth-child(2){
   color: #F3922A;
+}
+.barIconContainer{
+  display: none;
+}
+@media screen and (max-width:650px) {
+  .logOutbutton{
+    display: none;
+  }
+  .CenterAnchorTagsContainer{
+    display: none;
+  }
+  .barIconContainer{
+    display: block;
+  }
+
+
 }
