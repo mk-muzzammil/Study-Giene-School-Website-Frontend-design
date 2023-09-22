@@ -37,6 +37,10 @@
 #letter-type-board>h3 {
     z-index: 2;
     margin-top: 2rem;
+<<<<<<< HEAD
     text-align: center;
+=======
+    text-align: center;
+>>>>>>> newFunctionality
 
 }

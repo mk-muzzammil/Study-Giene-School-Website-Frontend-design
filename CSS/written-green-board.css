@@ -52,6 +52,7 @@
 
 
 @media screen and (max-width:430px) {
+<<<<<<< HEAD
 
     #written-green-board img {
 
@@ -59,4 +60,9 @@
     }
 
 
+=======
+    #written-green-board img {
+     width: 300px;
+    }
+>>>>>>> newFunctionality
 }

@@ -8,19 +8,27 @@
   border-bottom-left-radius:5rem;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .CenteAnchorTagsrContainer{
 =======
 .CenterAnchorTagsContainer{
 >>>>>>> dev-branch
+=======
+.CenterAnchorTagsContainer{
+>>>>>>> newFunctionality
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .CenteAnchorTagsrContainer a{
 =======
 .CenterAnchorTagsContainer a{
 >>>>>>> dev-branch
+=======
+.CenterAnchorTagsContainer a{
+>>>>>>> newFunctionality
   margin-inline:1rem;
   text-decoration: none;
   font-family: 'Milonga', cursive;
@@ -29,6 +37,7 @@
   font-size: 1rem;
 
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .CenteAnchorTagsrContainer a:nth-child(2){
   color: #F3922A;
@@ -61,3 +70,24 @@
   }
 }
 >>>>>>> dev-branch
+=======
+.CenterAnchorTagsContainer a:nth-child(2){
+  color: #F3922A;
+}
+.barIconContainer{
+  display: none;
+}
+@media screen and (max-width:650px) {
+  .logOutbutton{
+    display: none;
+  }
+  .CenterAnchorTagsContainer{
+    display: none;
+  }
+  .barIconContainer{
+    display: block;
+  }
+
+
+}
+>>>>>>> newFunctionality
